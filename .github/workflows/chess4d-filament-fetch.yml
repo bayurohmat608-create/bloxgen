@@ -2,6 +2,8 @@ name: Chess4D Filament Fetch
 
 on:
   push:
+    branches: [ main, chess4d-filament-fetch ]
+  pull_request:
     branches: [ main ]
 
 permissions:
